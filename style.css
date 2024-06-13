@@ -4,7 +4,222 @@
     box-sizing: border-box;
 }
 
+/*Estilos Basicos*/
 html, body{
     font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.7em;
+}
 
+a{
+    color: #f9f9f5;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+hr{
+    background: #f9f9f5;
+    max-width: 1400px;
+    height: 1px;
+    margin: auto;
+    border: 0px;
+}
+
+/*Utilidades*/
+.container{
+    margin:auto;
+    max-width: 1400px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 25px;
+    color:#f9f9f5;
+    padding-left: 12px;
+}
+
+.btn i{
+    font-size: 30px;
+}
+
+clr{
+    clear: both;
+}
+
+/*Navbar*/
+#navbar{
+    overflow: auto; /*Previene que el contenido se desborde */
+}
+
+span{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#navbar h1{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 25px 5px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current{
+    border:2px solid #f9f9f5;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+/*Showcase*/
+#showcase-img{
+    background: url('High-Hotel.jpg') no-repeat center/cover;
+    height: 950px;
+    filter: brightness(90%);
+}
+
+#showcase-img .showcase-content{
+    color: #f9f9f5;
+    text-align: center;
+    padding: 40px 150px; 
+}
+
+#showcase-img .showcase-content h1{
+    font-size: 12px;
+    line-height: 80px;
+    padding-left: 6px;
+}
+
+#showcase-img .showcase-content .showcase-p{
+    font-size: 60px;
+    line-height: 65px;
+    padding-top: 100px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f9f9f5;
+}
+
+/*Home*/
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('High-Hotel-\ 2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    filter: brightness(50%);
+}
+
+#home-info .info-content{
+    background: #f9f9f5;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    border: 10px double #5c3a23
+}
+/*padding: 50px 30px*/
+
+#home-info .info-content .text-primary{
+    color: #5c3a23;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+#home-info .info-content h2{
+    font-size: 23px;
+    color: #865d41;
+}
+
+#home-info .info-content p{
+    padding-bottom: 10px;
+}
+
+#home-info .info-content .btn-read-more{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f9f9f5;
+    background: #5c3a23;
+}
+
+#home-info .info-content .btn-read-more:hover{
+    padding: 10px 15px;
+    background: #3a1d0f;
+    transition: 0.2s;
+}
+
+/*Features*/
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    font-size: 50px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.bg-ligthbrown{
+    background: #c18f61;
+    color: #000;
+}
+
+.bg-brown{
+    background: #5c3a23;
+    color: #000;
+}
+
+.bg-yellow{
+    background: #f2d18b;
+    color: #000;
+}
+
+#features h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/*Footer*/
+#main-footer{
+    text-align: center;
+    background: #f9f9f5;
+    color: #000;
+    padding: 20px;
 }
