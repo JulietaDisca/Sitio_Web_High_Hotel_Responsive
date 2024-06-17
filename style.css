@@ -42,7 +42,7 @@ hr{
     padding: 0 20px;
 }
 
-.btn{
+.scroll{
     display: inline-block;
     font-size: 20px;
     padding-top: 25px;
@@ -231,8 +231,8 @@ span{
 /*Footer*/
 #main-footer{
     text-align: center;
-    background: #f9f9f5;
-    color: #000;
+    background: #3a1d0f;
+    color: #f9f9f5;
     padding: 20px;
 }
 
@@ -306,4 +306,65 @@ span{
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+}
+/*Contacto*/
+#bg-contact{
+    background: #3a1d0f;
+    height: 120px;
+}
+
+.btn-contact{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f9f9f5;
+    background: #5c3a23;
+
+}
+
+.btn-contact:hover{
+    margin: 0;
+    padding: 10px 15px;
+    background: #3a1d0f;
+    transition: 0.2s;
+}
+
+#contact-form{
+    background: #f9f9f5;
+}
+
+#contact-form .form-group{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .l-heading .text-primary{
+    color: #5c3a23;
+    font-weight: 550;
+    line-height: 1.2em;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #c18f61;
+}
+
+#contact-info{
+    background: #f9f9f5;
 }
