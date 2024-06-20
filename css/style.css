@@ -283,7 +283,7 @@ span{
 /*Testimoniales*/
 
 #testimonials{
-    height: 500px;
+    height: 100%;
     background: url('../img/High-Hotel-Empresa-Fondo-5.jpeg') no-repeat center center/cover;
     padding-top: 100px;
 }
@@ -310,7 +310,7 @@ span{
 /*Contacto*/
 #bg-contact{
     background: #3a1d0f;
-    height: 120px;
+    height: 100%;
 }
 
 .btn-contact{

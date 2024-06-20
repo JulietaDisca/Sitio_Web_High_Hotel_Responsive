@@ -1,3 +1,129 @@
+/*Navbar*/
 #navbar .logo{
     float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #a8a8a8;
+}
+
+hr{
+    background: #f9f9f5;
+    max-width: 320px;
+    height: 3px;
+    margin: auto;
+    border: 0px;
+}
+
+#navbar ul li a{
+    padding: 0 5px;
+    margin: 10px 0px;
+}
+
+/*Showcase*/
+#showcase-img{
+    height: 100%;
+
+}
+
+#showcase-img .showcase-content{
+    padding: 10px 40px;
+}
+
+#showcase-img .showcase-content h1{
+    font-size: 1.2rem;
+    line-height: 50px;
+    
+}
+
+#showcase-img .showcase-content .showcase-p{
+    font-size: 3.5rem;
+    line-height: 60px;
+    padding-top: 20px;
+    font-weight: 300;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f9f9f5;
+}
+
+/*Home Info*/
+#home-info .info-img{
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+    padding: 25px 15px;
+}
+
+#home-info .info-content .text-primary{
+    color: #5c3a23;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+#home-info .info-content h2{
+    font-size: 18px;
+    color: #865d41;
+}
+
+#home-info .info-content p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.35rem;
+}
+
+#home-info .info-content .btn-read-more{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f9f9f5;
+    background: #5c3a23;
+}
+
+#home-info .info-content .btn-read-more:hover{
+    padding: 10px 15px;
+    background: #3a1d0f;
+    transition: 0.2s;
+}
+
+/*Features*/
+.box{
+    float: none;
+    width: 100%;
+    padding: 25px 15px;
+}
+
+/*About Us*/
+#bg{
+    height: 900px;
+}
+
+#about-info .info-left, #about-info .info-right{
+    float: none;
+    width: 100%;
+}
+
+.l-heading{
+    margin-top: 0;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 5px;
+}
+
+#about-info .info-left p{
+    text-align: center;
+}
+
+/*Contacto*/
+
+#contact-info .box{
+    padding: 12px 0;
+    border-bottom: 1px solid #3a1d0f;
+}
+
+#contact-form p{
+    text-align: center;
 }
